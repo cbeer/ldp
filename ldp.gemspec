@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "json-ld", "~> 3.2"
   spec.add_dependency "rdf", "~> 3.2"
   spec.add_dependency "rdf-isomorphic"
-  spec.add_dependency "rdf-ldp"
+  spec.add_dependency "rdf-ldp", ">= 2.1"
   spec.add_dependency "rdf-turtle"
   spec.add_dependency "rdf-vocab", ">= 0.8"
   spec.add_dependency "slop"
