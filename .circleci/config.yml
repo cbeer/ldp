@@ -48,6 +48,11 @@ jobs:
 workflows:
   ci:
     jobs:
+      # Rails 7.2
+      - bundle_and_test:
+          name: ruby3-3_rails7-2
+          ruby_version: 3.3.4
+          rails_version: 7.2.0
       # Rails 7.1
       - bundle_and_test:
           name: ruby3-3_rails7-1
@@ -148,6 +153,11 @@ workflows:
                 - main
 
     jobs:
+      # Rails 7.2
+      - bundle_and_test:
+          name: ruby3-3_rails7-2
+          ruby_version: 3.3.4
+          rails_version: 7.2.0
       # Rails 7.1
       - bundle_and_test:
           name: ruby3-3_rails7-1
